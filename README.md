@@ -26,3 +26,23 @@ Start the server
 ```bash
   uvicorn app.main:app
 ```
+
+## You can also run it with docker
+
+Go to the project directory
+
+```bash
+  cd books-service
+```
+
+Build the containers
+
+```bash
+  docker compose build
+```
+
+Run the containers
+
+```bash
+  docker compose up
+```
